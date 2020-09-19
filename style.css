@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+header{
+    background-image: url("./peter-broomfield-m3m-lnR90uM-unsplash.jpg");
+    color: white;
+    min-height:calc(100vh - 100px) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position: center center;
+    align-items: flex-start;
+    width: 100vw;
+}
+.container{
+    margin:0 auto;
+    max-width: 100%;
+    width: 100vw;
+}
+nav{
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+
+}
+nav .logo{
+    font-size: 2.5rem;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none ;
+    padding: 0;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.highlight{
+    background-color: #00c2ff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+.selected{
+    font-weight: bold;
+}
+
+ .content{
+    margin: auto;
+    font-size: 2rem;
+}
+.content h1{
+    color: #00c2ff;
+    margin-bottom: 0;
+}
+footer{
+    position: relative;
+    background-color: #000;
+    color: white;
+    height: 100px;
+    padding: 1rem;
+    width: 100vw;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+footer strong{
+    color: #00c2ff;
+}
